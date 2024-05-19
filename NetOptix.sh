@@ -29,7 +29,7 @@ while true; do
         1)
             echo "Running Hybla script..."
             sleep 2
-            curl -fsSL https://raw.githubusercontent.com/MrAminiDev/NetOptix/main/scripts/hybla.sh -o /tmp/hybla.sh
+            curl -fsSL https://github.com/S13cko/CustomNetOptix/blob/main/scripts/hybla.sh -o /tmp/hybla.sh
             bash /tmp/hybla.sh
             rm /tmp/hybla.sh
             ;;
